@@ -43,12 +43,7 @@
             <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement> 
-		<configuration>
-			  <url>http://localhost:8079/manager/text</url>
-			  <username>tomcat</username>
-			  <password>tomcat</password>
-		</configuration>
-	
+			
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
