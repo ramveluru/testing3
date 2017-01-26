@@ -23,9 +23,9 @@
 		<project.scm.id>gitserver</project.scm.id>
 	</properties>
 	<scm>
-			<url>https://github.com/sreekanth1990/javaproject</url>
-			<connection>scm:git:https://github.com/sreekanth1990/javaproject.git</connection>
-			<developerConnection>scm:git:https://github.com/sreekanth1990/javaproject.git</developerConnection>
+			<url>https://github.com/ramveluru/testing3</url>
+			<connection>scm:git:https://github.com/ramveluru/testing3.git</connection>
+			<developerConnection>scm:git:https://github.com/ramveluru/testing3.git</developerConnection>
 	  
     <tag>HEAD</tag>
   </scm>
@@ -134,10 +134,14 @@
 				<artifactId>jacoco-maven-plugin</artifactId>
                </plugin>
 			   <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
+                                	<groupId>org.apache.maven.plugins</groupId>
+                                        <artifactId>maven-deploy-plugin</artifactId>
+                                        <version>2.7</version>
+                                        <configuration>
+                                        	<skip>false</skip>
+                                        </configuration>
+									
+                    </plugin>
 <!--Manju  tag 1.0 tag v1.1                  -->
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
